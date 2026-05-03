@@ -37,9 +37,11 @@ jobs:
         run_docker: yes
         runner_os: ${{ runner.os }}
         cache_version: cache-v1
+        ncpus: 2.0
         docker_registry: ghcr.io
+        timeout: 2000.0
         force_install: no
         run_telemetry: yes
         free_diskspace: no
         miniforge_variant: ''
-        environment_file: 'https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2026.4/qiime2/released/rachis-qiime2-linux-64-conda.yml'
+        environment_file: https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2026.4/qiime2/released/rachis-qiime2-linux-64-conda.yml
