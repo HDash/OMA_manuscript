@@ -42,4 +42,4 @@ jobs:
         run_telemetry: yes
         free_diskspace: no
         miniforge_variant: ''
-        environment_file: https://github.com/qiime2/distributions/blob/dev/2026.4/qiime2/released/rachis-qiime2-linux-64-conda.yml
+        environment_file: https://raw.githubusercontent.com/qiime2/distributions/refs/heads/dev/2026.4/qiime2/released/rachis-qiime2-linux-64-conda.yml
