@@ -1,4 +1,4 @@
-name: Build Docker image for OMA manuscript
+name: build
 'on':
   push:
     branches:
