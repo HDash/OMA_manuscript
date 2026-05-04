@@ -1,5 +1,4 @@
-Package: OMAmanuscript
-Type: Package
+Package: omaManuscript
 Version: 0.0.1
 Authors@R:
     c(person(given = "Tuomas", family = "Borman", role = c("aut", "cre"),
