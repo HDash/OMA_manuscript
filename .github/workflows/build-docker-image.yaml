@@ -18,7 +18,7 @@ jobs:
         - os: ubuntu-latest
           bioc: '3.22'
           r: '4.5.2'
-          cont: ghcr.io/bioconductor/bioconductor_docker:RELEASE_3_22-R-4.5.2
+          cont: ghcr.io/bioconductor/bioconductor_docker:devel
           rspm: ~
           python-version: '3.14'
     steps:
