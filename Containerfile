@@ -1,4 +1,4 @@
-FROM docker.io/bioconductor/bioconductor_docker:RELEASE_3_22-R-4.5.2
+FROM docker.io/bioconductor/bioconductor_docker:devel
 
 WORKDIR /project
 COPY DESCRIPTION DESCRIPTION
