@@ -18,7 +18,7 @@ jobs:
         - os: ubuntu-latest
           bioc: '3.22'
           r: '4.5.2'
-          cont: ghcr.io/bioconductor/bioconductor_docker:devel
+          cont: ghcr.io/bioconductor/bioconductor_docker:RELEASE_3_22-R-4.5.2
           rspm: ~
           python-version: '3.14'
     steps:
@@ -44,4 +44,3 @@ jobs:
         run_telemetry: yes
         free_diskspace: no
         miniforge_variant: ''
-        environment_file: /__w/OMA_manuscript/OMA_manuscript/rachis-qiime2-linux-64-conda.yml
